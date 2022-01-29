@@ -1,0 +1,38 @@
+.btn{
+    color: black;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    width: 7rem;
+}
+.Clickdiv{
+    border:solid 2px black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2rem;
+    width: 20rem;
+
+    
+}
+#building{
+    font-size: 16px;
+    width: 20rem;
+    padding-left: 20px;
+
+}
+
+#building .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+*{
+    background-color: cornsilk;
+}
+.Container{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+}
+

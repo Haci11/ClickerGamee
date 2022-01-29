@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="update()">
+    <div class="Container">
+        <div class="Clickdiv">
+            <h1 id="inGameMoney">0</h1>
+            <h3 id="cpsmeter"></h3>
+            <button class="btn" id="btn-1" onclick="clicker.money++">
+                Money
+            </button>
+        </div>
+        <div id="building">
+
+        </div>
+        <div id="afk">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/erosson/swarm-numberformat@v0.1.0/dist/swarm-numberformat.min.js"></script>
+    <script src="/js.js"></script>
+</body>
+
+</html>
