@@ -1,3 +1,4 @@
+
 var clicker = {
     money:0,
     power:1,
