@@ -67,7 +67,6 @@ function update(){
 },50)
 }
 
-
 function gamebtn(thing) {
     console.log(clicker)
     if(clicker.upgrades[thing].cost <= clicker.money){
